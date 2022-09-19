@@ -1,0 +1,37 @@
+input[type="email"] {
+    width: 50%;
+}
+#head1{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Inter', sans-serif;
+}
+#first-text-input{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Inter', sans-serif;
+    border: 0;
+    background-color: #e0e0e0;
+    border-radius: 7px;
+}
+label{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Inter', sans-serif;
+}
+#iceCream{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Inter', sans-serif;
+}
+#yesOrNo{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Inter', sans-serif;
+}
+fieldset{
+    border: 0;
+}
+#set-btn{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+}
+img{
+    width: 20%;
+}

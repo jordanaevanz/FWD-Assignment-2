@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Assignment 2 Home Page</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="index.css"/>
+    <script defer src="index.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
+    </head>
+
+  <body>
+    <h1 id="head1">ASSIGNMENT 2</h1>
+    <form>
+<!-- first input -->
+        <fieldset>
+          <label for="first-text-input"> Enter Your First Name Here </label>
+          <input type="text" id="first-text-input">
+        </fieldset>
+<br>
+        <!-- <div>
+          <label for="first-email-input"> Enter email here </label>
+          <input type="email" id="first-email-input">
+        </div> -->
+<!-- second input -->
+        <fieldset>
+          <label for="color-element"> Background Color Picker</label>
+          <input type="color" id="color-element">
+        </fieldset>
+<br>
+<!-- additional form control radio box-->
+        <fieldset id ="yesOrNo" style="visibility: visible">
+          <legend>Do you like Ice Cream</legend>
+          <input type="radio" id="yes" name="radio-group">
+          <label for="yes">YES</label>
+          <input type="radio" id="no" name="radio-group">
+          <label for="no">NO</label>
+        </fieldset>
+<br>
+<!-- additional form control check box-->
+        <h1 id = "none"> </h1>
+
+        <fieldset id ="FlavorOpt" style="visibility: hidden">
+          <legend id ="iceCream"> </legend>
+          <input type="checkbox" id="vanilla" name="flavor">
+          <label for="vanilla"> VANILLA </label>
+          <input type="checkbox" id="chocolate" name="flavor">
+          <label for="chocolate"> CHOCOLATE </label>
+        </fieldset>
+<br>
+         <!-- button -->
+        <button id="set-btn" type="button"> ENTER </button>
+<br>
+<br>
+        <img id="flavorChoice" style="visibility: hidden" src="images/chocolate.jpeg" alt="chocolate ice cream"/>
+    </form>
+  </body>
+</html>
